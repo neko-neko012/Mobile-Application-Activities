@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adlawan Simple AsynchTask</string>
+
+        <string name="text_ready">I am ready to start work!</string>
+        <string name="button_start_task">Start Task</string>
+    <string name="napping">Napping...</string>
+</resources>
