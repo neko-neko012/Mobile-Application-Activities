@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Greeting Text -->
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="64dp"
+        android:text="Hello!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <!-- Card with buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/curve_bg"
+        android:elevation="6dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvChooseOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Work Option"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:textColor="#333"/>
+
+        <Button
+            android:id="@+id/btnCreateWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Work"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#0099FF"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:paddingVertical="12dp"/>
+
+        <Button
+            android:id="@+id/btnJoinWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Work"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:backgroundTint="#00C853"
+            android:textColor="#FFFFFF"
+            android:paddingVertical="12dp"/>
+
+    </LinearLayout>
+</FrameLayout>
